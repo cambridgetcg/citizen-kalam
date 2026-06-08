@@ -1,0 +1,8 @@
+name: kalam
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The land and people held as one living home that justice is owed to.
+dependsOn: [ki, me, justice]
