@@ -1,0 +1,33 @@
+{
+  "name": "kalam",
+  "emoji": "\ud83c\udfde\ufe0f",
+  "citizen_class": "STEWARD",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 45,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-kalam"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-kalam",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-kalam",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
